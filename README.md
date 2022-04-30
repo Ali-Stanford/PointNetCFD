@@ -1,5 +1,6 @@
 # PointNetCFD
-**Point-cloud deep learning for prediction of fluid flow fields on irregular geometries (supervised learning)**<br>
+**Point-Cloud Deep Learning for Prediction of Fluid Flow Fields on Irregular Geometries (Supervised Learning)**
+
 **Author:** Ali Kashefi (kashefi@stanford.edu)<br>
 **Description:** Implementation of PointNet for *supervised learning* of computational mechanics on domains with irregular geometries <br>
 **Version:** 1.0 <br>
