@@ -128,7 +128,7 @@ def plotSolution(x_coord,y_coord,solution,file_name,title):
 number = 0 #It should be less than 
 plot2DPointCloud(input_data[number,:,0],input_data[number,:,1],'PointCloud')
 plotSolution(input_data[number,:,0],input_data[number,:,1],output_data[number,:,0],'u_velocity','u (x-velocity component)')
-plotSolution(input_data[number,:,0],input_data[number,:,1],output_data[number,:,1],'v_velocity','v (v-velocity component)')
+plotSolution(input_data[number,:,0],input_data[number,:,1],output_data[number,:,1],'v_velocity','v (y-velocity component)')
 plotSolution(input_data[number,:,0],input_data[number,:,1],output_data[number,:,2],'pressure','pressure')
 
 ##### Spliting data ##### 
@@ -288,8 +288,8 @@ plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],prediction[0,:,
 plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],output_test[s,:,1],'v_ground_truth','velocity ground truth (v) m/s')
 plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],np.absolute(output_test[s,:,1]-prediction[0,:,1]),'v_point_wise_error','absolute point-wise error of velocity (v) m/s')
 
-plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],prediction[0,:,2],'p_prediction','velocity prediction (p) Pa')
-plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],output_test[s,:,2],'p_ground_truth','velocity ground truth (u) m/s')
+plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],prediction[0,:,2],'p_prediction','pressure prediction (p) Pa')
+plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],output_test[s,:,2],'p_ground_truth','pressure ground truth (p) Pa')
 plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],np.absolute(output_test[s,:,2]-prediction[0,:,2]),'p_point_wise_error','absolute point-wise error of pressure (p) Pa')
 
 #Questions?
