@@ -46,7 +46,7 @@ from tensorflow.python.keras.layers import Convolution1D, MaxPooling1D, BatchNor
 from tensorflow.python.keras.layers import Lambda, concatenate
 
 ##### Importing data #####
-#For your convinient, we have already prepared data as a numpy array. You can download it from *
+#For your convinient, we have already prepared data as a numpy array. You can download it from https://github.com/Ali-Stanford/PointNetCFD/blob/main/Data.npy
 #The data for this specific test case is the spatial coordinates of the finite volume (or finite element) grids and the values of velocity and pressure fields on those grid points.
 #The spatial coordinates are the input of PointNet and the velocity (in the *x* and *y* directions) and pressure fields are the output of PointNet.
 #Here, our focus is on 2D cases.
