@@ -32,7 +32,7 @@ We strongly recommend to run the code on Google Colab as a first tr
 **3. Flow past a cylinder** <br>
 We consider laminar steady-state flow past a cylinder with different shapes for its cross sections. In fact, we consider the same example discussed in the journal paper. Please see *Figure 2* and *Figure 3* of the [journal paper](https://aip.scitation.org/doi/full/10.1063/5.0033376) for the generated meshes and flow fields. For geometries of the cross section of the cylinder, we use those geometries described in *Table 1* of the [journal paper](https://aip.scitation.org/doi/full/10.1063/5.0033376). However, due to reducing the data size and making it possible to run the code in a reasonable amount of time on Google Colab, we only consider "circle," "equilateral hexagon," "equilateral pentagon," "square," and "equilateral triangle." For the fluid and flow properties such as density, viscosity, and the magnitude of free stream velocity, please see the section of *Governing equations of fluid dynamics* of the [journal paper](https://aip.scitation.org/doi/full/10.1063/5.0033376) for further details.
 
-**Please read the rest of this documention by opening the "PointNetCFD.ipynb" file on on Google Colab.**
+**Please read the rest of this documention by opening the "PointNetCFD.ipynb" file on Google Colab.**
 
 **Questions?** <br>
 If you have any questions or need assistance, please do not hesitate to contact Ali Kashefi (kashefi@stanford.edu) or Davis Rempe (drempe@stanford.edu) via email. 
