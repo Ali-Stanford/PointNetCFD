@@ -46,16 +46,12 @@ from tensorflow.python.keras.layers import Convolution1D, MaxPooling1D, BatchNor
 from tensorflow.python.keras.layers import Lambda, concatenate
 
 ##### Importing data #####
-#For your convinient, we have already prepared data as a numpy array.
+#For your convinient, we have already prepared data as a numpy array. You can download it from *
 #The data for this specific test case is the spatial coordinates of the finite volume (or finite element) grids and the values of velocity and pressure fields on those grid points.
 #The spatial coordinates are the input of PointNet and the velocity (in the *x* and *y* directions) and pressure fields are the output of PointNet.
 #Here, our focus is on 2D cases.
 
-#from google.colab import drive
-#drive.mount('/content/drive')
-#Data = np.load('drive/My Drive/Colab Notebooks/Data.npy')
-
-Data = np.load('Gross_Data.npy')
+Data = np.load('Data.npy')
 data_number = Data.shape[0]
 
 print('Number of data is:')
@@ -200,8 +196,9 @@ model.compile(optimizers.Adam(lr=learning_rate, beta_1=0.9, beta_2=0.999, epsilo
 
 ##### Training PointNet #####
 #Please be careful about the choice of batch size (`batch`) and number of epochs (`epoch_number`).
-#At the beginning, you might observe an increase in the validation loss (even up to 0.25), but please do not worry, it will eventually decrease.
-#Please note that this section might take approximately 2 hours to be completed (when running on Google Colab). So, please be patient. 
+#At the beginning, you might observe an increase in the validation loss, but please do not worry, it will eventually decrease.
+#Please note that this section might take approximately 20 hours to be completed (if you are running the code on Google Colab). So, please be patient. 
+#Alternatively, you can run this section on your cluster computing.
 
 batch = 32
 epoch_number = 4000
