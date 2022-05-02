@@ -1,4 +1,4 @@
-# PointNet CFD
+# PointNet for CFD (Computational Fluid Dynamics)
 **Point-Cloud Deep Learning for Prediction of Fluid Flow Fields on Irregular Geometries (Supervised Learning)**
 
 **Authors:** Ali Kashefi (kashefi@stanford.edu) and Davis Rempe (drempe@stanford.edu)<br>
