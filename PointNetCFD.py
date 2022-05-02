@@ -125,7 +125,7 @@ def plotSolution(x_coord,y_coord,solution,file_name,title):
     plt.clf()
     #plt.show()
     
-number = 0 #It should be less than 
+number = 0 #It should be less than 'data_number' 
 plot2DPointCloud(input_data[number,:,0],input_data[number,:,1],'PointCloud')
 plotSolution(input_data[number,:,0],input_data[number,:,1],output_data[number,:,0],'u_velocity','u (x-velocity component)')
 plotSolution(input_data[number,:,0],input_data[number,:,1],output_data[number,:,1],'v_velocity','v (y-velocity component)')
