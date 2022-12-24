@@ -282,7 +282,7 @@ prediction[0,:,2] = prediction[0,:,2]*(p_max - p_min) + p_min
 
 plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],prediction[0,:,0],'velocity prediction','velocity prediction (u)')
 plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],output_test[s,:,0],'velocity ground truth','velocity ground truth (u)')
-plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],np.absolute(output_test[s,:,0]-prediction[0,:,0]),'velocity ground truth','absolute point-wise error of velocity (u)')
+plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],np.absolute(output_test[s,:,0]-prediction[0,:,0]),'u_point_wise_error','absolute point-wise error of velocity (u) m/s')
 
 plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],prediction[0,:,1],'v_prediction','velocity prediction (v) m/s')
 plotSolution(sample_point_cloud[0,:,0],sample_point_cloud[0,:,1],output_test[s,:,1],'v_ground_truth','velocity ground truth (v) m/s')
