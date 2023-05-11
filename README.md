@@ -11,7 +11,7 @@ If you use the code, plesae cite the following journal paper: <br>
 **[A point-cloud deep learning framework for prediction of fluid flow fields on irregular geometries](https://aip.scitation.org/doi/full/10.1063/5.0033376)**
 
     @article{kashefi2021PointNetCFD, 
-      author = {Kashefi, Ali  and Rempe, Davis  and Guibas, Leonidas J. }, 
+      author = {Kashefi, Ali  and Rempe, Davis  and Guibas, Leonidas J.}, 
       title = {A point-cloud deep learning framework for prediction of fluid flow fields on irregular geometries},
       journal = {Physics of Fluids},
       volume = {33}, 
