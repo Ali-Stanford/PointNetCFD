@@ -10,15 +10,16 @@
 If you use the code, plesae cite the following journal paper: <br>
 **[A point-cloud deep learning framework for prediction of fluid flow fields on irregular geometries](https://aip.scitation.org/doi/full/10.1063/5.0033376)**
 
-@article{kashefi2021PointNetCFD, <br>
-author = {Kashefi, Ali  and Rempe, Davis  and Guibas, Leonidas J. }, <br>
-title = {A point-cloud deep learning framework for prediction of fluid flow fields on irregular geometries}, <br>
-journal = {Physics of Fluids}, <br>
-volume = {33}, <br>
-number = {2}, <br>
-pages = {027104}, <br>
-year = {2021}, <br>
-doi = {10.1063/5.0033376},}
+    @article{kashefi2021PointNetCFD, 
+      author = {Kashefi, Ali  and Rempe, Davis  and Guibas, Leonidas J. }, 
+      title = {A point-cloud deep learning framework for prediction of fluid flow fields on irregular geometries},
+      journal = {Physics of Fluids},
+      volume = {33}, 
+      number = {2}, 
+      pages = {027104},
+      year = {2021},
+      doi = {10.1063/5.0033376},
+    }
 
 **1. Introduction** <br>
 We provide the implementation of [PointNet](https://arxiv.org/abs/1612.00593) for prediction of quantities of interest in the area of computational mechanics on domains with irregular geometries. Specifically, we present the example of flow past a cylinder with various shapes for its cross sections. We hope that this simple example motivates other researchers to use [PointNet](https://arxiv.org/abs/1612.00593) for other areas of computational mechanics and physics such as compressible flows, solid mechanics, etc. <br>
