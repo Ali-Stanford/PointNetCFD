@@ -39,3 +39,6 @@ We consider laminar steady-state flow past a cylinder with different shapes for 
 
 **Questions?** <br>
 If you have any questions or need assistance, please do not hesitate to contact Ali Kashefi (kashefi@stanford.edu) or Davis Rempe (drempe@stanford.edu) via email. 
+
+**About the Author** <br>
+Please see the author's website: [Ali Kashefi](https://web.stanford.edu/~kashefi/) 
