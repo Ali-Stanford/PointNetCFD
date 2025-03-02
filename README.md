@@ -21,7 +21,7 @@ If you use the code, please cite the following journal paper: <br>
       number = {2}, 
       pages = {027104},
       year = {2021},
-      doi = {10.1063/5.0033376},}
+      doi = {10.1063/5.0033376}}
 
 **1. Introduction** <br>
 We provide the implementation of [PointNet](https://arxiv.org/abs/1612.00593) for the prediction of quantities of interest in the area of computational mechanics on domains with irregular geometries. Specifically, we present the example of flow past a cylinder with various shapes for its cross sections. We hope that this simple example motivates other researchers to use [PointNet](https://arxiv.org/abs/1612.00593) for different areas of computational mechanics and physics such as compressible flows, solid mechanics, etc. <br>
