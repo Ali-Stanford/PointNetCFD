@@ -39,14 +39,14 @@ We consider laminar steady-state flow past a cylinder with different shapes for 
 
 **Download the Full Data** <be>
 
-You might sse the following batch command to download the full dataset (a NumPy array, approximately 42MB in size).
+You might use the following batch command to download the full dataset (a NumPy array, approximately 42MB in size).
 
 ```bash
 wget https://web.stanford.edu/~kashefi/data/CFDdata.npy
 ```
 **PointNet for CFD in PyTorch** <be>
 
-The PyTorch version of the code can be downloaded from
+The PyTorch version of the code can be downloaded from the following link:
 
 [PyTorch Version](https://github.com/Ali-Stanford/KAN_PointNet_CFD/blob/main/others/PointNetMLP_alternative.py)
 
