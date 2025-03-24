@@ -50,6 +50,11 @@ The PyTorch version of the code can be downloaded from the following link:
 
 [PyTorch Version](https://github.com/Ali-Stanford/KAN_PointNet_CFD/blob/main/others/PointNetMLP_alternative.py)
 
+**PointNet for CFD using KAN (Kolmogorov-Arnold Networks)** <be>
+
+Implementation of PointNet using KANs instead of MLPs can be found here:
+[KAN PointNet for CFD](https://github.com/Ali-Stanford/KAN_PointNet_CFD/blob/main/others/PointNetKAN_alternative.py)
+
 **Questions?** <br>
 If you have any questions or need assistance, please do not hesitate to contact Ali Kashefi (kashefi@stanford.edu) or Davis Rempe (drempe@stanford.edu) via email. 
 
