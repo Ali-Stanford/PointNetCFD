@@ -37,6 +37,14 @@ We consider laminar steady-state flow past a cylinder with different shapes for 
 
 **Please read the rest of this documentation by opening the "PointNetCFD.ipynb" file on Google Colab.**
 
+**Download the Full Data** <be>
+
+You might sse the following batch command to download the full dataset (a NumPy array, approximately 42MB in size).
+
+```bash
+wget https://web.stanford.edu/~kashefi/data/CFDdata.npy
+```
+
 **Questions?** <br>
 If you have any questions or need assistance, please do not hesitate to contact Ali Kashefi (kashefi@stanford.edu) or Davis Rempe (drempe@stanford.edu) via email. 
 
