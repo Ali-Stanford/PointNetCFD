@@ -44,6 +44,10 @@ You might sse the following batch command to download the full dataset (a NumPy 
 ```bash
 wget https://web.stanford.edu/~kashefi/data/CFDdata.npy
 ```
+**PyTorch Version** <br>
+The PyTorch version of the code can be downloaded from
+
+(https://github.com/Ali-Stanford/KAN_PointNet_CFD/blob/main/others/PointNetMLP_alternative.py)
 
 **Questions?** <br>
 If you have any questions or need assistance, please do not hesitate to contact Ali Kashefi (kashefi@stanford.edu) or Davis Rempe (drempe@stanford.edu) via email. 
