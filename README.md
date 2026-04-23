@@ -6,8 +6,6 @@
 
 **Authors:** Ali Kashefi (kashefi@stanford.edu) and Davis Rempe (drempe@stanford.edu)<br>
 **Description:** Implementation of PointNet for *supervised learning* of computational mechanics on domains with irregular geometries <br>
-**Version:** 1.0 <br>
-**Guidance:** We recommend opening and running the code on **[Google Colab](https://research.google.com/colaboratory)** as a first try.
 
 **Citation** <br>
 If you use the code, please cite the following journal paper: <br>
@@ -23,19 +21,8 @@ If you use the code, please cite the following journal paper: <br>
       year = {2021},
       doi = {10.1063/5.0033376}}
 
-**1. Introduction** <br>
-We provide the implementation of [PointNet](https://arxiv.org/abs/1612.00593) for the prediction of quantities of interest in the area of computational mechanics on domains with irregular geometries. Specifically, we present the example of flow past a cylinder with various shapes for its cross sections. We hope that this simple example motivates other researchers to use [PointNet](https://arxiv.org/abs/1612.00593) for different areas of computational mechanics and physics, such as compressible flows, solid mechanics, etc. <br>
-To make the code usable for everyone (even with a moderate knowledge of deep learning), we implement the code using [Keras](https://keras.io/). We explain the procedure step by step.<br>
-We strongly recommend users read the journal paper **"A point-cloud deep learning framework for prediction of fluid flow fields on irregular geometries"** (https://aip.scitation.org/doi/full/10.1063/5.0033376). <br>
-You might also find free versions of this article on [arXiv](http://arxiv-export-lb.library.cornell.edu/abs/2010.09469) or [ResearchGates](https://www.researchgate.net/publication/349544773_A_point-cloud_deep_learning_framework_for_prediction_of_fluid_flow_fields_on_irregular_geometries/stats).<br>
-
-**2. Google Colab** <br>
-We strongly recommend running the code on Google Colab as a first try. Here is a link to Colab https://research.google.com/colaboratory. In this way, you will not need to install different libraries. Moreover, you do not need to worry about matching the required libraries.
-
-**3. Flow past a cylinder** <br>
-We consider laminar steady-state flow past a cylinder with different shapes for its cross sections. In fact, we consider the same example discussed in the journal paper. Please see *Figure 2* and *Figure 3* of the [journal paper](https://aip.scitation.org/doi/full/10.1063/5.0033376) for the generated meshes and flow fields. For geometries of the cross-section of the cylinder, we use those geometries described in *Table 1* of the [journal paper](https://aip.scitation.org/doi/full/10.1063/5.0033376). However, due to reducing the data size and making it possible to run the code in a reasonable amount of time on Google Colab, we only consider "circle," "equilateral hexagon," "equilateral pentagon," "square," and "equilateral triangle." For the fluid and flow properties such as density, viscosity, and the magnitude of free stream velocity, please see the section on *Governing equations of fluid dynamics* of the [journal paper](https://aip.scitation.org/doi/full/10.1063/5.0033376) for further details.
-
-**Please read the rest of this documentation by opening the "PointNetCFD.ipynb" file on Google Colab.**
+**Abstract** <br>
+We present a novel deep learning framework for flow field predictions in irregular domains when the solution is a function of the geometry of either the domain or objects inside the domain. Grid vertices in a computational fluid dynamics (CFD) domain are viewed as point clouds and used as inputs to a neural network based on the PointNet architecture, which learns an end-to-end mapping between spatial positions and CFD quantities. Using our approach, (i) the network inherits desirable features of unstructured meshes (e.g., fine and coarse point spacing near the object surface and in the far field, respectively), which minimizes network training cost; (ii) object geometry is accurately represented through vertices located on object boundaries, which maintains boundary smoothness and allows the network to detect small changes between geometries and (iii) no data interpolation is utilized for creating training data; thus accuracy of the CFD data is preserved. None of these features are achievable by extant methods based on projecting scattered CFD data into Cartesian grids and then using regular convolutional neural networks. Incompressible laminar steady flow past a cylinder with various shapes for its cross section is considered. The mass and momentum of predicted fields are conserved. We test the generalizability of our network by predicting the flow around multiple objects as well as an airfoil, even though only single objects and no airfoils are observed during training. The network predicts the flow fields hundreds of times faster than our conventional CFD solver, while maintaining excellent to reasonable accuracy.
 
 **Download the Full Data** <be>
 
