@@ -1,4 +1,4 @@
-# PointNet for CFD (Computational Fluid Dynamics)
+# PointNet for Computational Fluid Dynamics (CFD)
 
 ![pic](./CFDpointNet.png)
 
